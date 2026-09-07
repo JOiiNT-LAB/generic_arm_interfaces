@@ -1,0 +1,6 @@
+string command       #possibili "open" | "close" | "move"
+float32 position      # usato solo con command:="move", range [0.0, 1.0]
+string gripper_type   # "robotiq" | "softhand" | "rg2" | "franka_hand" | "auto" (vuoto = auto)
+---
+bool success
+string message
